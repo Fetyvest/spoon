@@ -9,7 +9,13 @@
     align-items: center;
 }
 
-.logo {}
+.logo {
+    transition: transform 1s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
 
 .nav {}
 
@@ -69,25 +75,6 @@
     line-height: 185%;
     text-align: center;
     color: #fff;
-}
-
-.btn {
-    background-color: var(--colorGreen);
-    padding: 15px 27px;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 187%;
-    text-align: center;
-    color: #fff;
-    transition: transform 1s;
-}
-
-.btn:hover {
-    transform: scale(1.2);
 }
 
 .desc__btn {
