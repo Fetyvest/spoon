@@ -11,10 +11,40 @@
 .services__list {
     margin-top: 54px;
     display: flex;
+    gap: 19px;
 }
 
-.services__item {}
+/* @media(max-width: 400px){
+    .services__list{
+        flex-direction: column;
+    }
+} */
 
-.services__title {}
+.services__item {
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.05);
+    padding: 51px 56px 109px 41px;
+    transition: background-color 1s;
+}
 
-.services__text {}
+.services__item:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.services__title {
+    font-family: var(--fontLF);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+    margin-top: 25px;
+    margin-bottom: 13px;
+}
+
+.services__text {
+    font-family: var(--familyIBM);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 185%;
+    color: #999;
+}
