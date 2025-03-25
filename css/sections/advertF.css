@@ -17,15 +17,7 @@
 .advert__main-text {
     max-width: 685px;
 }
-/* .link {
-} */
+
 .advert__link {
     margin-top: 33px;
-    font-family: var(--fontIBM);
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 164%;
-    text-transform: uppercase;
-    text-align: center;
-    color: #5ab963;
 }
