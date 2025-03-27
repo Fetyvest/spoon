@@ -8,7 +8,7 @@
 
 * {
     box-sizing: border-box;
-    /* border: lime solid 1px; */
+    /* border: lime solid 1px !important; */
 }
 
 body, html {
@@ -73,5 +73,5 @@ ol, ul{
     line-height: 164%;
     text-transform: uppercase;
     text-align: center;
-    color: #5ab963;
+    color: var(--colorGreen);
 }

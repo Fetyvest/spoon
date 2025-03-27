@@ -1,0 +1,48 @@
+.party {
+    margin-top: 1px;
+}
+
+.party__content {
+    margin: 150px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.party__info {
+    width: 585px;
+    height: 111px;
+}
+
+.party__text {
+    font-family: var(--fontLF);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--colorGreen);
+    display: flex;
+    align-items: center;
+}
+
+.party__main-text {
+    margin-top: 15px;
+    width: 483px;
+    font-family: var(--font-LF);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000;
+}
+
+.party__btn {
+    height: 60px;
+}
+
+.party__text::after {
+    content: "";
+    display: inline-block;
+    margin-left: 11px;
+    width: 30px;
+    height: 2px;
+    background-color: var(--colorGreen);
+}

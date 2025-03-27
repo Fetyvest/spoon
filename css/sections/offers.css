@@ -8,7 +8,7 @@
     padding: 120px 0;
 }
 
-.offers__list {}
+/* .offers__list {} */
 
 .offers__card {
     display: flex;
@@ -28,13 +28,13 @@
     height: 330px;
 }
 
-.offers__block {}
+/* .offers__block {} */
 
-.offers__desc {}
+/* .offers__desc {} */
 
-.main-text {}
+/* .main-text {} */
 
-.offers__main-text {}
+/* .offers__main-text {} */
 
 .offers__text {
     font-family: var(--fontIBM);
@@ -49,8 +49,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 110px;
+    margin-bottom: 120px;
 }
 
-.offers__info-text {}
+.offers__info-text {
+    font-family: var(--fontLF);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+}
 
-.offers__link {}
+/* .offers__link {} */
