@@ -8,7 +8,7 @@
 
 * {
     box-sizing: border-box;
-    /* border: lime solid 1px !important; */
+    border: lime solid 1px !important;
 }
 
 body, html {
