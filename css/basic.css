@@ -8,7 +8,7 @@
 
 * {
     box-sizing: border-box;
-    border: lime solid 1px !important;
+    /* border: lime solid 1px !important; */
 }
 
 body, html {
@@ -46,7 +46,7 @@ ol, ul{
     line-height: 187%;
     text-align: center;
     color: #fff;
-    transition: transform 1s;
+    transition: transform 0.5s;
 }
 
 .btn:hover {

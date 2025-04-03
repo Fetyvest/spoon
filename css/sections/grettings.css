@@ -9,11 +9,11 @@
     align-items: center;
 }
 
-.logo {
-    transition: transform 1s;
+.logo img {
+    transition: transform 0.5s;
 }
 
-.logo:hover {
+.logo img:hover {
     transform: scale(1.2);
 }
 
@@ -31,6 +31,7 @@
     font-size: 14px;
     line-height: 171%;
     color: #fff;
+    transition: color 0.5s, border 0.5s;
 }
 
 .nav__item:last-child a{
