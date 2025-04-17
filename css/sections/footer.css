@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 
-.footer__info {}
+/* .footer__info {} */
 
 .footer__text {
     font-family: var(--fontLF);
@@ -61,3 +61,5 @@
 .footer__link img:hover {
     scale: 1.2;
 }
+
+@media(max-width: )

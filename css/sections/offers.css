@@ -24,8 +24,8 @@
 }
 
 .offers__pic {
-    width: 470px;
-    height: 330px;
+    max-width: 100%;
+    height: 100%;
 }
 
 /* .offers__block {} */
@@ -63,3 +63,31 @@
 }
 
 /* .offers__link {} */
+
+@media(max-width: 1150px) {
+    .offers__card:first-child {
+            padding-right: 0px;
+        }
+    
+    .offers__card:last-child {
+    padding-left: 0px;
+    }
+
+    .offers .container {
+        padding: 85px 10px;
+    }
+}
+
+@media(max-width: 850px) {
+    .offers__card {
+        flex-direction: column;
+    }
+
+    .offers__card:last-child {
+        mask-repeat: 56px;
+    }
+
+    .offers__info {
+        margin-top: 73px;
+    }
+}

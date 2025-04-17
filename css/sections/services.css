@@ -48,3 +48,13 @@
     line-height: 185%;
     color: #999;
 }
+
+@media(max-width: 950px) {
+    .services__list {
+        flex-direction: column;
+    }
+
+    .services {
+        margin-top: 70px;
+    }
+}
